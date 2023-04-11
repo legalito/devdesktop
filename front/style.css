@@ -1,0 +1,55 @@
+body {
+  margin : 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  height : 100vh;
+  align-items: stretch;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside {
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+main {
+  padding : 5px;
+}
+
+#fileList {
+  min-width: 300px;
+  list-style: none;
+  margin-left : 0;
+  padding-left : 0;
+  color: white;
+}
+  
+#fileList li {
+  padding : 5px;
+  box-sizing: border-box;
+  border-bottom: solid 1px;
+  width : 100%;
+  cursor : pointer;
+}
+#fileList li:hover {
+  color : rgb(255, 255, 255);
+  text-shadow: white 0 0 3px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex : 1;
+}
+
+textarea {
+  flex : 1;
+  border : none;
+  outline: none;
+  border-radius: 0.5em;
+  background-color: rgb(255, 255, 255,0.7);
+}
+
+#currentFileName {
+  color: white;
+}
